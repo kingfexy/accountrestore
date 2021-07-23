@@ -442,7 +442,7 @@ img[_ngcontent-fhc-c25] {
     align-items: center;
     justify-content: center;
     padding: 25px;
-    left: 120px;
+    left: 10px;
     position: relative;
 }
 .img-fluid, .img-thumbnail {
@@ -459,6 +459,27 @@ img {
     font-weight: 700;
     color: red;
 }
+.btn-primary:not(:disabled):not(.disabled).active, .btn-primary:not(:disabled):not(.disabled):active, .show > .btn-primary.dropdown-toggle {
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 98, 204);
+    border-color: rgb(0, 92, 191);
+}
+.btn:not(:disabled):not(.disabled) {
+    cursor: pointer;
+}
+.btn-primary.focus, .btn-primary:focus, .btn-primary:hover {
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 105, 217);
+    border-color: rgb(0, 98, 204);
+}
+.btn:hover {
+    color: rgb(33, 37, 41);
+    text-decoration: none;
+}
+[type="button"]:not(:disabled), [type="reset"]:not(:disabled), [type="submit"]:not(:disabled), button:not(:disabled) {
+    cursor: pointer;
+}
+
 
 
 
